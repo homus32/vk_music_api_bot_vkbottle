@@ -1,0 +1,7 @@
+{
+  "token": "token",
+  "qiwi": "qiwi_key",
+  "pgsql_password": "pswd",
+  "redis_sock_path": "/var/run/redis.sock",
+  "steam_link_encryption_password": "blablabla123"
+}

@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "vkbottle_bot_example"
+version = "0.1.0"
+description = ""
+authors = ["homus32"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+orjson = "^3.5.3"
+loguru = "^0.5.3"
+uvloop = "^0.15.2"
+pony = "^0.7.14"
+psycopg2cffi = "^2.9.0"
+redis = "^3.5.3"
+python-dateutil = "^2.8.2"
+vkbottle = {git = "https://github.com/vkbottle/vkbottle"}
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
